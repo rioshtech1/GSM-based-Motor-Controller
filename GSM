@@ -1,4 +1,12 @@
+/**
+ * @author Manu Devappa
+ *
+ * @copyright Copyright (c) 2021
+ * dmanu.techie@gmail.com
+ */
+
 #include <SoftwareSerial.h>
+
 SoftwareSerial GPRS(3, 2);
 String textMessage;
 String lampState;
